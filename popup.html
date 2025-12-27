@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prompt Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+<div class="header-content">
+<div class="logo">📝</div>
+<h1>Prompt Manager</h1>
+<p>Organize your AI prompts</p>
+</div>
+</div>
+
+<div class="tabs">
+<button class="tab active" data-tab="add">Add New</button>
+<button class="tab" data-tab="library">Library</button>
+</div>
+
+<div class="container">
+<div id="addSection">
+<div class="input-group">
+<label>Folder</label>
+<input type="text" id="folderInput" placeholder="Optional folder name">
+</div>
+<div class="input-group">
+<label>Title *</label>
+<input type="text" id="titleInput" placeholder="Give your prompt a title">
+</div>
+<div class="input-group">
+<label>Prompt *</label>
+<textarea id="promptInput" placeholder="Enter your prompt here..."></textarea>
+</div>
+<button class="btn btn-primary" id="saveBtn">
+<span>💾</span>
+<span id="saveBtnText">Save Prompt</span>
+</button>
+</div>
+
+<div id="librarySection" class="hidden">
+<div class="search-box">
+<span class="search-icon">🔍</span>
+<input type="text" id="searchInput" placeholder="Search prompts...">
+</div>
+<div class="action-bar">
+<button class="btn-secondary btn" id="exportBtn">📥 Export</button>
+<button class="btn-secondary btn" id="importBtn">📤 Import</button>
+<input type="file" id="fileInput" accept=".json" style="display:none">
+</div>
+<div class="prompts-list" id="promptsList"></div>
+</div>
+</div>
+
+<div class="footer">
+<span class="badge" id="totalCount">0 prompts</span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
