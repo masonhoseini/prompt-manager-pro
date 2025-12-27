@@ -19,7 +19,7 @@ A professional Chrome extension for managing AI prompts. Save, organize, and qui
 
 1. Download or clone this repository
    ```bash
-   git clone https://github.com/yourusername/prompt-manager-extension.git
+   git clone https://github.com/masonhoseini/prompt-manager-pro.git
    ```
 
 2. Open Chrome and go to `chrome://extensions/`
@@ -34,7 +34,7 @@ A professional Chrome extension for managing AI prompts. Save, organize, and qui
 
 ### Method 2: Install from Release
 
-1. Download the latest `.zip` file from [Releases](https://github.com/yourusername/prompt-manager-extension/releases)
+1. Download the latest `.zip` file from [Releases](https://github.com/masonhoseini/prompt-manager-pro/releases)
 2. Extract the ZIP file
 3. Follow steps 2-6 from Method 1
 
@@ -107,9 +107,9 @@ If you find this extension helpful, please give it a star on GitHub!
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
+Mason Hoseini - [@masonhoseini](https://github.com/masonhoseini)
 
-Project Link: [https://github.com/yourusername/prompt-manager-extension](https://github.com/yourusername/prompt-manager-extension)
+Project Link: [https://github.com/masonhoseini/prompt-manager-pro](https://github.com/masonhoseini/prompt-manager-pro)
 
 ---
 
